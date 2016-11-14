@@ -72,18 +72,6 @@ height:250px;
 width: 250px;
 }
 
-span.text-content {
-  background: rgba(0,0,0,0.5);
-  color: white;
-  cursor: pointer;
-  display: table;
-  height: 150px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 150px;
-  opacity: 0;
-}
 
 span.text-content span {
   display: table-cell;
@@ -91,7 +79,7 @@ span.text-content span {
   vertical-align: middle;
 }
 
-ul.img-list li:hover span.text-content {
+ul.thumbnail li:hover span.text-content {
   opacity: 1;
 }
 
