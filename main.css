@@ -79,7 +79,7 @@ span.text-content span {
   vertical-align: middle;
 }
 
-ul.thumbnail li:hover span.text-content {
+col-md-4.thumbnail .thumbnail:hover span.text-content {
   opacity: 1;
 }
 
