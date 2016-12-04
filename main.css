@@ -10,6 +10,11 @@
   display: inline;
 }
 
+.pull-right a{
+  width: 10px;
+  height: 10px;
+}
+
 .jumbotron {
   background-image:url('topSGM.jpg');
   height: 500px;
