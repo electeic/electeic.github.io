@@ -1,6 +1,6 @@
 .portfolio-header {
-  position: relative;
-  background-image: url(images/header-bg.jpg);
+  /*position: relative;*/
+  /*background-image: url(images/header-bg.jpg);*/
 }
 
 .portfolio-header .mdl-layout__header-row {
@@ -191,9 +191,15 @@ footer {
     max-width: 100%}
 .grid img {
     opacity: .7;
+
+     -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .grid img:hover {
-    opacity: 1;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .grid.effect-2 li.animate {
     -webkit-transform: translateY(200px);
@@ -202,6 +208,8 @@ footer {
     -webkit-animation: moveUp .65s ease forwards;
     -moz-animation: moveUp .65s ease forwards;
     animation: moveUp .65s ease forwards;
+
+    overflow: hidden;
 }
 #portfolio {
     width: 100%}
@@ -212,9 +220,9 @@ footer {
 .titlescreen
 {
   background-image: url(images/header-bg.jpg);
-/* background-image: url(images/purpgrad.png);
-  background-repeat: no-repeat;
-  background-size: cover;*/
+ /*background-image: url(images/purpgrad.png);*/
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
 }
 
 .test{
@@ -240,3 +248,10 @@ footer {
     opacity: 0.5;
 }
 
+.myresume
+{
+  margin-top: 50px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
