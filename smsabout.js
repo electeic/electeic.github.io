@@ -78,7 +78,8 @@ function responsiveChatPush(element, sender, origin, date, message) {
 responsiveChat('.responsive-html5-chat');
 
 /* Let's push some dummy data */
-responsiveChatPush('.chat', 'Ivan Chen', 'you', 'today lmao', 'Hi Welcome to my webpage!');
+responsiveChatPush('.chat', 'Ivan Chen', 'you', 'today lmao', 'Hi, welcome to my webpage!');
+responsiveChatPush('.chat', 'Ivan Chen', 'you', 'today lmao', '<img src="me_compressed.jpg" style="height: 100%; width: 100%;"/>');
 responsiveChatPush('.chat', 'Ivan Chen', 'you', 'today lmao', 'My name is Ivan and I am an aspiring software engineer');
 responsiveChatPush('.chat', 'Ivan Chen', 'you', 'today lmao', 'I graduated from USC with a B.S. in Computer Science in 2018 and looking for a full time position');
 responsiveChatPush('.chat', 'Ivan Chen', 'you', 'today lmao', 'I am a highly competitive and motivated person who strives to influence the world');
